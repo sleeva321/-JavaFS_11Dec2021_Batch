@@ -1,0 +1,44 @@
+1.PreIncrement
+
+class PreIncrement {
+       
+    public static void main(String[] args) {       
+        int x = 10;       
+        int y = ++x;       
+        System.out.println("y value is: " + y);   ---->11
+    }
+
+} 
+==================================================
+2.PostIncrement
+
+class PostIncrement {
+
+    public static void main(String[] args) {       
+        int x = 10;       
+        int y = x++;       
+        System.out.println("y value is: " + y); ---->10 
+    }
+
+}
+================================================
+3.PreDecrement
+
+class PreDecrement {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = --x;
+        System.out.println("y value is: " + y); ---->9
+    }
+}
+
+================================================
+4.PostDecrement
+
+class PostDecrement {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = x--;
+        System.out.println("y value is: " + y);----->10
+    }
+}
